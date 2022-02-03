@@ -1,5 +1,4 @@
-# Sign-Language-Recognition A  PROJECT   REPORT
-#ABSTRACT
+# ABSTRACT
 Inability to speak is considered to be true disability. People with this disability
 use different modes to communicate with others, there are number of methods
 available for their communication one such common method of
@@ -24,94 +23,57 @@ obtained  using  this  approach  was  44.259%.
 accuracy of the model obtained using Convolutional Neural Network was
 95.50%.
 6
-#TABLE  OF  CONTENTS
-1  Introduction                                                                             9
-1.1  Sign  Language                                                                                            9
+# TABLE  OF  CONTENTS
+1  Introduction                                                                             
+1.1  Sign  Language                                                                                            
 ______________________________________________
-2  Literature  Survey                                                                  11
-2.1  Vision  Based                                                                                             11
-     2.1.1  Indian  sign  language  recognition  based  on  HOG  and  NN                12
-     2.1.2  Automatic  Indian  Sign  Language  Recognition  for  Continuous        13
+2  Literature  Survey                                                                  
+2.1  Vision  Based                                                                                             
+     2.1.1  Indian  sign  language  recognition  based  on  HOG  and  NN                
+     2.1.2  Automatic  Indian  Sign  Language  Recognition  for  Continuous        
           Video  sequence.
-2.2  Glove  Based                                                                                             13
-2.2.1  Hand  Gesture  Recognition  Using  Flex  Sensors                                    14
+2.2  Glove  Based                                                                                             
+2.2.1  Hand  Gesture  Recognition  Using  Flex  Sensors                                    
 ______________________________________________
-3  Algorithms                                                                               16
-3.1  Scale  Invariant  feature  transform(SIFT)                                                  16
-3.2  K  Means  Clustering                                                                                  18
-3.3   Support  Vector  Machines(SVM)                                                              20
-3.4  Convolutional  Neural  Network                                                                24
-     3.4.1  CNN  Summarized  in  4  Steps                                                            24
-         3.4.1.1  Convolution                                                                                24
-         3.4.1.2  Subsampling                                                                               25
-         3.4.1.3  Activation                                                                                   26
-         3.4.1.4  Fully  Connected                                                                         26
-         3.4.1.5  Loss                                                                                            26
-     3.4.2  Implementation                                                                                 26
+3  Algorithms                                                                               
+3.1  Scale  Invariant  feature  transform(SIFT)                                                  
+3.2  K  Means  Clustering                                                                                  
+3.3   Support  Vector  Machines(SVM)                                                              
+3.4  Convolutional  Neural  Network                                                                
+     3.4.1  CNN  Summarized  in  4  Steps                                                            
+         3.4.1.1  Convolution                                                                                
+         3.4.1.2  Subsampling                                                                               
+         3.4.1.3  Activation                                                                                   
+         3.4.1.4  Fully  Connected                                                                         
+         3.4.1.5  Loss                                                                                            
+     3.4.2  Implementation                                                                                 
 ______________________________________________
-4  Experimental   Design                                                    28
-4.1  First  Approach  (SIFT  and  SVM)                                                          28
+4  Experimental   Design                                                    
+4.1  First  Approach  (SIFT  and  SVM)                                                          
 7
    4.1.1  Data  Set  Used   28
-     4.1.2  Methodology                                                                                     28
-         4.1.2.1  Image  Segmentation                                                                   29
-         4.1.2.2  Feature  Extraction                                                                      29
-         4.1.2.3  Training  and  Testing                                                                   32
-     4.1.3  Results                                                                                               33
-     4.1.4  Limitations                                                                                        34
-4.2  Second  Approach(CNN)                                                                        35
-     4.2.1  Data  Set  Used                                                                                    35
-     4.2.2  Image  Augmentation  and  Resize                                                      35
-     4.2.3  Image  Preprocessing                                                                         35
-     4.2.4  VGG  16                                                                                             36
-     4.2.5  Training                                                                                             37
-     4.2.6  Results                                                                                               38
-         4.2.6.1  Training  Result                                                                           38
-         4.2.6.2  Testing  Result                                                                             38
+     4.1.2  Methodology                                                                                     
+         4.1.2.1  Image  Segmentation                                                                   
+         4.1.2.2  Feature  Extraction                                                                      
+         4.1.2.3  Training  and  Testing                                                                   
+     4.1.3  Results                                                                                              
+     4.1.4  Limitations                                                                                        
+4.2  Second  Approach(CNN)                                                                        
+     4.2.1  Data  Set  Used                                                                                    
+     4.2.2  Image  Augmentation  and  Resize                                                      
+     4.2.3  Image  Preprocessing                                                                         
+     4.2.4  VGG  16                                                                                             
+     4.2.5  Training                                                                                             
+     4.2.6  Results                                                                                               
+         4.2.6.1  Training  Result                                                                           
+         4.2.6.2  Testing  Result                                                                             
 ______________________________________________
-5  Conclusion   and  Future  Work                                               39
+5  Conclusion   and  Future  Work                                               
 ______________________________________________
 6   References
 ______________________________________________
-8
 
-American  Sign  Language
-Block  Diagram  Vision  Based  Recognition  System
-Block  Diagram  of  Hand  Gesture  Recognition  System
-System  Overview
-Flex  Sensor  Gloves
-Transmitter  Section  for  hand  gesture  recognition
-Receiver  Section  for  hand  gesture  recognition
-Detected  Sift  Features(Example)
-Test  Image  for  Peak  Threshold
-Detected  Frames  or  Peak  Threshold
-Test  Image  For  Edge  Threshold
-Detected  Frames  for  Edge  Threshold
-K  Means  Clustering
-SVM
-SVM  Scenario  1
-SVM  Scenario  2
-SVM  Scenario  3
-SVM  Scenario  3
-SVM  Scenario  3
-Convolutional  Neural  Network
-Convolving  Wally  with  a  circle  filter
-Subsampling  Wally  by  10  times
-Approach  1  Methodology
-Image  Segmentation
-Feature  Extraction
-Codebook
-Code  of  histogram
-Histogram  Corresponding  to  Code
-Dump  of  Histograms
-Training  and  Testing
-Results  of  approach  1
-Limitation  1
-Limitation  2
-VGG  16  ARchitecture
-Training  Result  of  approach  2
-
-#1. INTRODUCTION
+# 1. INTRODUCTION
 Motion of any body part like face, hand is a form of gesture. Here for gesture
 recognition we are using image processing and computer vision. Gesture
 recognition enables computer to understand human actions and also acts as an
@@ -132,7 +94,7 @@ Isolated sign language consists of single gesture having single word while
 continuous ISL or Continuous Sign language is a sequence of gestures that
 generate a meaningful sentence. In this report we performed isolated ASL
 gesture  recognition  technique.
-1.1  Sign  Language
+## 1.1  Sign  Language
 Deaf people around the world communicate using sign language as distinct
 from spoken language in their every day a visual language that uses a system
 of manual, facial and body movements as the means of communication. Sign
@@ -142,32 +104,18 @@ countries such as Belgium, the UK, the USA or India may have more than one
 sign language. Hundreds of sign languages are in used around the world, for
 instance, Japanese Sign Language, British Sign Language (BSL), Spanish Sign
 Language,  Turkish  Sign  Language.
-Sign  language  is  a  visual  language  and  consists  of  3  major  components:
-10
-Fingerspelling Word  level  sign
-vocabulary
-Non­manual  features
-Used to spell words
-letter  by  letter  .
-Used for the majority
-of  communication.
-Facial expressions and
-tongue, mouth and
-body  position.
 We have used American Sign Language(ASL) as a base in our project.
 American Sign Language is a complex visual­spatial language that is used by
 the deaf community in the United States and English­speaking parts of
 Canada. It is linguistically complete, natural language. It is native language of
 many deaf men and women, as well as some hearing children born into deaf
 families.
-Fig  1:   American  Sign  Language[18]
-11
 
-#2.  LITERATURE  SURVEY
-I n the recent years, there has been tremendous research on the hand sign
+# 2.  LITERATURE  SURVEY
+In the recent years, there has been tremendous research on the hand sign
 recognition. The technology of gesture recognition is divided into two
-categories
-#2.1  Vision­based
+categories.
+## 2.1  Vision­based
 In vision­based methods computer camera is the input device for observing the
 information of hands or fingers. The Vision Based methods require only a
 camera, thus realizing a natural interaction between humans and computers
@@ -179,7 +127,6 @@ camera independent to achieve real time performance. Moreover, such systems
 must be optimized to meet the requirements, including accuracy and
 robustness.
 The  vision  based  hand  gesture  recognition  system  is  shown  in  fig.­­:
-Fig  2:  Block  Diagram  of  vision  based  recognition  system
 Vision based analysis, is based on the way human beings perceive information
 about their surroundings, yet it is probably the most difficult to implement in a
 satisfactory  way.  Several  different  approaches  have  been  tested  so  far.
@@ -187,10 +134,10 @@ satisfactory  way.  Several  different  approaches  have  been  tested  so  far.
 matched to images of the hand by one or more cameras, and parameters
 corresponding to palm orientation and joint angles are estimated. These
 parameters  are  then  used  to  perform  gesture  classification.
-12
 2. Second one to capture the image using a camera then extract some feature
 and those features are used as input in a classification algorithm for
 classification.
+
 2.1.1  Indian  Sign  Language   Recognition   Based  on  Histogram
           Of  Oriented   Gradient   and  NN  [16]
 In this paper, a method for hand gesture recognition of Indian sign language is
@@ -202,8 +149,7 @@ characters (A­Z) and numerals (0­9) using Histograms of Oriented Gradients
 (HOG) features. Their purpose is to implement an algorithm to extract
 Histogram of Gradient Orientation (HOG) features and these features are used
 to  pass  in  neural  network  training  for  the  gesture  recognition  purpose.
-Fig  3:  Block  Diagram  of  Hand  Gesture  Recognition  System
-13
+
 2.1.2  Automatic   Indian  Sign  Language   Recognition   for
           Continuous   Video  Sequence  [15]
 The proposed system comprises of four major modules: Data Acquisition,
@@ -212,8 +158,8 @@ involves Skin Filtering and histogram matching after which Eigen­vector
 based Feature Extraction and Eigen value weighted Euclidean distance based
 Classification Technique was used. 24 different alphabets were considered in
 this  paper  where  96%  recognition  rate  was  obtained.
-Fig  4:  System  Overview
-2.2  Glove­Based
+
+## 2.2  Glove­Based
 In glove based systems, data gloves are used which can achieve the accurate
 positions of hand gestures as its positions are directly measured. The
 Data­Glove based methods use sensor devices for digitizing hand and finger
@@ -228,11 +174,10 @@ vision­based approaches for recognizing gestures Also the sensors used for the
 detection of the sign language and the gesture recognition in the system that
 are available in the market are quite costly. In computer recognition of spoken
 language, speech data is captured using a microphone connected to an ADC.
-14
 Similarly a data­capturing device is also required in order to recognize sign
 language; in this case measuring the position and movement of the signer's
 hands.
-Fig  5:  Gloves  with  flex  sensor  mounted  on  it
+
 2.2.1  Hand  Gesture  Recognition  Using  Flex  Sensors  [17]
 In this system an electro­mechanical robot is designed and controlled using
 hand gesture in real time. The system is designed on microcontroller platform
@@ -249,15 +194,10 @@ character from which the character is identified and displayed on LCD. The
 various case studies is prepared for the designed system and tested in real time.
 The proposed system can be used for the various applications such as in
 unmanned  machines,  industries,  handicapped  personnel  etc.
-15
-Fig  6:
-Transmitter  section  for  hand  gesture  recognition
-Fig  7:
-Receiver  section  for  hand  gesture  recognition
-16
+
 # 3.  ALGORITHMS
-##3.1  Scale  Invariant   Feature  Transform(SIFT)
-S cale­invariant feature transform (SIFT) is an algorithm in computer vision to
+## 3.1  Scale  Invariant   Feature  Transform(SIFT)
+Scale­invariant feature transform (SIFT) is an algorithm in computer vision to
 detect and describe local features in images. The algorithm was patented in the
 US by the University of British Columbia and published by David Lowe in
 1999.
@@ -274,8 +214,7 @@ feature descriptor. The detector extracts from an image a number of frames
 illumination, viewpoint and other viewing conditions. The descriptor
 associates to the regions a signature which identifies their appearance
 compactly  and  robustly.
-Fig  8:  Some  of  the  detected  SIFT  frames  [12]
-17
+
 The  SIFT  detector  is  controlled  mainly  by  two  parameters:  the  peak
 threshold  and  the  (non)  edge  threshold.
 The  peak  threshold  filters   peaks  of  the  DoG  scale  space  that  are  too  small  (in
@@ -285,12 +224,9 @@ Fig  10:  Detected  frames  for  increasing  peak  threshold.
 From  top:  peak_thresh  =  {0,10,20,30}  [12]
 The  edge  threshold   eliminates  peaks  of  the  DoG  scale  space  whose  curvature
 is  too  small  (such  peaks  yield  badly  localized  frames).
-Fig  11:  A  test  image  for  the  edge  threshold  parameter.  [12]
-Fig  12:  Detected  frames  for  increasing  edge  threshold.
-From  top:  edge_thresh  =  {3.5,  5,  7.5,  10}  [12]
-18
-##3.2  K  MEANS  CLUSTERING
-T he k­means algorithm takes as input the number of clusters to generate, k,
+
+## 3.2  K  MEANS  CLUSTERING
+The k­means algorithm takes as input the number of clusters to generate, k,
 and a set of observation vectors to cluster. It returns a set of centroids, one for
 each of the k clusters. An observation vector is classified with the cluster
 number  or  centroid  index  of  the  centroid  closest  to  it.
@@ -304,13 +240,11 @@ the  nearest  mean
 clusters  becomes  the  new  mean.
 4. Steps 2 and 3 are repeated until
 convergence  has  been  reached.
-Fig  13:  K  Means  Clustering  [13]
 A vector v belongs to cluster i if it is closer to centroid i than any other
 centroids. If v belongs to i, we say centroid i is the dominating centroid of v.
 The k­means algorithm tries to minimize distortion, which is defined as the
 sum of the squared distances between each observation vector and its
 dominating centroid. Each step of the k­means algorithm refines the choices of
-19
 centroids to reduce distortion. The change in distortion is used as a stopping
 criterion: when the change is lower than a threshold, the k­means algorithm is
 not making sufficient progress and terminates. One can also define a maximum
@@ -339,8 +273,8 @@ may yield poor results. That is why, when performing k­means, it is important
 to  run  diagnostic  checks  for  determining  the  number  of  clusters  in  the  data  set .
 3. Convergence to a local minimum may produce counterintuitive ("wrong")
 results.
-20
-##3.3  Support  Vector  Machines   (SVM)
+
+## 3.3  Support  Vector  Machines   (SVM)
 S upport Vector Machine (SVM) is a supervised machine learning algorithm
 which can be used for both classification or regression challenges. However, it
 is mostly used in classification problems. In this algorithm, we plot each data
@@ -395,7 +329,7 @@ defined.
 Fig  14.5  [11]
 When  we  look  at  the  hyperplane  in  original  input  space  it  looks  like  a   circle.
 24
-##3.4  CONVOLUTIONAL   NEURAL  NETWORK(CNN)
+## 3.4  CONVOLUTIONAL   NEURAL  NETWORK(CNN)
 Neural networks, as its name suggests, is a machine learning technique which
 is modeled after the brain structure. It comprises of a network of learning units
 called neurons. These neurons learn how to convert input signals (e.g. picture
@@ -487,7 +421,7 @@ practitioners often utilize toolboxes developed such as Caffe, Torch,
 MatConvNet  and  Tensor  flow  for  their  work.
 28
 # 4.  EXPERIMENTAL  DESIGN
-##4.1  FIRST  APPROACH   (SIFT  AND  SVM)
+## 4.1  FIRST  APPROACH   (SIFT  AND  SVM)
 4.1.1  Data  Set  Used
 The data set used for this approach consists of 2524 American Sign
 Language(ASL) Gestures, with 70 gestures belonging to each of the 36
@@ -550,7 +484,7 @@ and  SVM  doesn’t  performs  well  when  target  classes  are  overlapping.
 D 1 A M
 Fig  28
 35
-##4.2  SECOND   APPROACH
+## 4.2  SECOND   APPROACH
 (CONVOLUTIONAL   NEURAL   NETWORK)
 Since very less accuracy (44.259%) was obtained using the last
 approach.We  used  CNN.
@@ -643,7 +577,7 @@ Fig  30
 4.2.6.2  Testing  Result
 The  loss  obtained  on  testing  set  was  0.1182  with  an  accuracy  of  95.50%.
 39
-#5.  CONCLUSION   AND  FUTURE   WORK
+# 5.  CONCLUSION   AND  FUTURE   WORK
 Hand gestures are a powerful way for human communication, with lots of
 potential applications in the area of human computer interaction. Vision­based
 hand gesture recognition techniques have many proven advantages compared
@@ -671,7 +605,7 @@ We wish to extend our work further in real time with better accuracy. And
 moreover we have dealt with only alphabets of American Sign Language. We
 will  try  to  extend  it  towards  recognition  of  words  and  sentences.
 40
-#6.  REFERENCES
+# 6.  REFERENCES
 [1] A.L.C. Barczak, N.H. Reyes, M. Abastillas, A. Piccio and T.
 Susnjak : A New 2D Static Hand Gesture Colour Image Dataset for
 ASL   Gestures.  IIMS,  Massey  University,  Auckland,  New  Zealand
